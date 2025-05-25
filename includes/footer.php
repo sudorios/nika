@@ -8,8 +8,8 @@
             <a href="#">Inicio</a>
             <a href="./nosotros.php">Nosotros</a>
             <a href="#">Categorías</a>
-            <a href="#">Envíos</a>
-            <a href="#">Contacto</a>
+            <a href="./envios.php">Envíos</a>
+            <a href="./contacto.php">Contacto</a>
         </div>
         <div class="footer-social">
             <a href="#" aria-label="Facebook">
