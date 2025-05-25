@@ -5,10 +5,9 @@
             <span>NIKA</span>
         </div>
         <div class="footer-links">
-            <a href="#">Inicio</a>
-            <a href="./nosotros.php">Nosotros</a>
-            <a href="#">Categorías</a>
-            <a href="./envios.php">Envíos</a>
+            <a href="./formas-de-pago.php">Formas de pago</a>
+            <a href="./politicas-privacidad.php">Políticas de privacidad</a>
+            <a href="./cambios-devoluciones.php">Cambios y devoluciones</a>
             <a href="./contacto.php">Contacto</a>
         </div>
         <div class="footer-social">
