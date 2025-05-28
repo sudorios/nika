@@ -33,27 +33,22 @@
                 </p>
             </div>
         </section>
-<section class="equipo-section">
+        <section class="equipo-section">
             <h2 class="titulo-equipo">Nuestro Equipo</h2>
-            
+
             <div class="integrantes-container">
-                <!-- Integrante 1 -->
                 <div class="integrante-card">
                     <img src="assets/images/cv/rios.jpg" alt="Integrante 1" class="foto-integrante">
                     <h3 class="nombre-integrante">Jeancarlos Rios</h3>
                     <p class="cargo-integrante">Director General</p>
                     <a href="cv_Daniel.php" class="btn-cv">Ver CV</a>
                 </div>
-
-                <!-- Integrante 2 -->
                 <div class="integrante-card">
                     <img src="./assets/images/cv/mu.png" alt="Integrante 2" class="foto-integrante">
                     <h3 class="nombre-integrante">Jorge Munayco</h3>
                     <p class="cargo-integrante">Gerente de Ventas</p>
                     <a href="cv_David.php" class="btn-cv">Ver CV</a>
                 </div>
-
-                <!-- Integrante 3 -->
                 <div class="integrante-card">
                     <img src="./assets/images/cv/marin.jpeg" alt="Integrante 3" class="foto-integrante">
                     <h3 class="nombre-integrante">Daniella Marin</h3>

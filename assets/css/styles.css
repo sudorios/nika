@@ -175,6 +175,7 @@ nav a:hover {
         font-size: 2rem;
     }
 }
+
 /* Estilos para la sección del equipo */
 .equipo-section {
     margin-top: 4rem;
@@ -266,20 +267,20 @@ nav a:hover {
     .equipo-section {
         margin-top: 3rem;
     }
-    
+
     .titulo-equipo {
         font-size: 1.8rem;
     }
-    
+
     .integrantes-container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
-    
+
     .integrante-card {
         padding: 1.25rem;
     }
-    
+
     .foto-integrante {
         width: 120px;
         height: 120px;
