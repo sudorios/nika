@@ -175,6 +175,116 @@ nav a:hover {
         font-size: 2rem;
     }
 }
+/* Estilos para la sección del equipo */
+.equipo-section {
+    margin-top: 4rem;
+}
+
+.titulo-equipo {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+}
+
+.integrantes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.integrante-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #f0f0f0;
+}
+
+.integrante-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgb(0 0 0 / 0.15);
+}
+
+.foto-integrante {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1rem;
+    display: block;
+    border: 4px solid #f0f0f0;
+    transition: border-color 0.3s ease;
+}
+
+.integrante-card:hover .foto-integrante {
+    border-color: var(--color-primary);
+}
+
+.nombre-integrante {
+    font-size: 1.4rem;
+    font-weight: var(--font-weight-bold);
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.cargo-integrante {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.btn-cv {
+    background: linear-gradient(135deg, var(--color-primary) 0%, #764ba2 100%);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    font-family: var(--font-family);
+}
+
+.btn-cv:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgb(102 126 234 / 0.4);
+    text-decoration: none;
+    color: white;
+}
+
+/* Responsive para la sección del equipo */
+@media (max-width: 768px) {
+    .equipo-section {
+        margin-top: 3rem;
+    }
+    
+    .titulo-equipo {
+        font-size: 1.8rem;
+    }
+    
+    .integrantes-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .integrante-card {
+        padding: 1.25rem;
+    }
+    
+    .foto-integrante {
+        width: 120px;
+        height: 120px;
+    }
+}
 
 /* footer */
 .footer-nika {

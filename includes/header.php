@@ -1,3 +1,5 @@
+ <script src="https://cdn.tailwindcss.com"></script>
+
 <header>
     <div class="logo-nika">
         <img src="./assets/images/logo/nika.png" alt="Logo NIKA" />
@@ -7,7 +9,24 @@
         <a href="./index.php">INICIO</a>
         <a href="./nosotros.php">NOSOTROS</a>
         <a href="./envios.php">ENVIOS</a>
-        <a href="./categorias.php">CATEGORIAS</a>
+        <div class="relative group ml-7 mr-7">
+                <a href="#" class="cursor-pointer">
+                    CATEGORIAS
+                    <svg class="inline-block ml-1 w-4 h-4 transition-transform group-hover:rotate-180" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                
+                 <!--Menú desplegable--> 
+                <div class="absolute left-0 mt-3 w-48 bg-black border border-gray-600 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50" style="background-color: var(--color-bg);">
+                    <div class="py-2">
+                        <a href="dama.php" class="block  px-7 py-3 text-sm text-left hover:bg-red-800 transition-colors" style="color: var(--color-text); font-weight: var(--font-weight-semibold); font-size: var(--font-size-nav);">DAMA</a>
+                        <a href="caballero.php" class="block  px-1 py-3 text-sm text-left hover:bg-red-800 transition-colors" style="color: var(--color-text); font-weight: var(--font-weight-semibold); font-size: var(--font-size-nav);">CABALLERO</a>
+                        <a href="deportivo.php" class="block  px-1 py-3 text-sm text-left hover:bg-red-800 transition-colors" style="color: var(--color-text); font-weight: var(--font-weight-semibold); font-size: var(--font-size-nav);">DEPORTIVO</a>
+                        <a href="urbano.php" class="block  px-1 py-3 text-sm text-left hover:bg-red-800 transition-colors" style="color: var(--color-text); font-weight: var(--font-weight-semibold); font-size: var(--font-size-nav);">URBANO</a>
+                    </div>
+                </div>
+            </div>
         <a href="./contacto.php">CONTACTO</a>
     </nav>
     <div class="header-icons">
