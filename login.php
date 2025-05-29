@@ -1,5 +1,4 @@
 <?php
-$page_title = 'NIKA | Iniciar Sesión';
 include_once('includes/head.php');
 include_once('includes/header.php');
 ?>
@@ -10,13 +9,12 @@ include_once('includes/header.php');
             <div class="col-md-6 col-lg-5">
                 <div class="card shadow-sm border-0">
                     <div class="card-body p-4">
-                        <!-- Logo NIKA centrado -->
+                        
                         <div class="text-center mb-4">
                             <img src="./assets/images/logo/nika.png" alt="Logo NIKA" style="height: 80px;">
                             <h2 class="mt-3 mb-0" style="color: #5e0606;">INICIAR SESIÓN</h2>
                         </div>
 
-                        <!-- Formulario de Login -->
                         <form action="auth_process.php" method="POST">
                             <div class="mb-3">
                                 <label for="email" class="form-label">Correo Electrónico</label>

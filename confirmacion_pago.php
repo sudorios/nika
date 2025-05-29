@@ -1,15 +1,5 @@
 <?php
-// Iniciar sesión y verificar el carrito
-require_once('init.php');
-include_once('includes/carrito_functions.php');
 include_once('includes/oferta_productos.php');
-
-// Obtener total del carrito
-$total = calcularTotal($productos);
-
-// Vaciar el carrito después del pago (opcional)
-// vaciarCarrito();
-
 include_once('includes/head.php');
 include_once('includes/header.php');
 ?>
@@ -34,7 +24,7 @@ include_once('includes/header.php');
                             <h5 class="mb-3">Resumen de tu compra</h5>
                             <div class="d-flex justify-content-between mb-2">
                                 <span class="fw-bold">Monto total:</span>
-                                <span class="fw-bold">S/ <?php echo number_format($total, 2); ?></span>
+                                <span class="fw-bold">S/ 339.60</span>
                             </div>
                             <div class="d-flex justify-content-between mb-2">
                                 <span>Método de pago:</span>
