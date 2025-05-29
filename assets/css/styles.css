@@ -618,3 +618,56 @@ textarea {
 .btn-comprar:hover {
     background-color: #7c1f13;
 }
+
+.categorias-contenedor {
+    position: relative;
+    display: inline-block;
+}
+
+/* Estilo del título */
+.categorias-titulo {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-bold);
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+/* Dropdown oculto por defecto */
+.categorias-enlaces {
+    display: none;
+    position: absolute;
+    background-color: var(--color-bg);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    min-width: 160px;
+    text-align: center;
+}
+
+/* Mostrar menú al hacer hover sobre el contenedor */
+.categorias-contenedor:hover .categorias-enlaces {
+    display: block;
+}
+
+/* Estilo de los enlaces dentro del dropdown */
+.categoria-link {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-semibold);
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Hover en los enlaces */
+.categoria-link:hover {
+    background-color: var(--color-primary);
+    color: #ffffff;
+    border-radius: 0.25rem;
+}

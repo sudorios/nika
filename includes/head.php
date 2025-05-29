@@ -4,5 +4,6 @@
     <title>NIKA | Ropa urbana y deportiva </title>
     <link href="./assets/css/styles.css" rel="stylesheet" type="text/css" />
     <link rel="icon" href="./assets/images/logo/nika.ico" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
