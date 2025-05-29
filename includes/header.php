@@ -1,5 +1,5 @@
- <script src="https://cdn.tailwindcss.com"></script>
-
+<?php require_once('init.php'); ?><!<!-- NO BORRAR -->
+<script src="https://cdn.tailwindcss.com"></script>
 <header>
     <div class="logo-nika">
         <img src="./assets/images/logo/nika.png" alt="Logo NIKA" />
@@ -30,7 +30,7 @@
         <a href="./contacto.php">CONTACTO</a>
     </nav>
     <div class="header-icons">
-        <a href="#" aria-label="Login" class="icon-link login-link">
+        <a href="login.php" aria-label="Login" class="icon-link login-link">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="icon icon-login">
@@ -39,7 +39,7 @@
                 <line x1="15" y1="12" x2="3" y2="12"></line>
             </svg>
         </a>
-        <a href="#" aria-label="Carrito de compras" class="icon-link cart-link">
+        <a href="carrito.php" aria-label="Carrito de compras" class="icon-link cart-link">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="icon icon-cart">
@@ -48,7 +48,7 @@
                 <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
             </svg>
         </a>
-        <a href="#" aria-label="Historial de Compras" class="icon-link history-link">
+        <a href="/nika/carrito.php" aria-label="Historial de Compras" class="icon-link history-link">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff"
                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-cart">
                 <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>

@@ -1,6 +1,11 @@
+
+<?php require_once('init.php');?>
 <?php include_once("includes/head.php") ?>
 <?php include_once("includes/header.php") ?>
-<?php include_once("includes/oferta_productos.php") ?>
+<?php include_once("includes/oferta_productos.php"); ?>
+<?php include_once("includes/carrito_functions.php");?>
+
+
 
 <main class="main-index">
     <section class="ofertas-section">
@@ -13,7 +18,10 @@
                     <h3 class="oferta-nombre"><?php echo $producto['nombre']; ?></h3>
                     <p class="oferta-precio">S/ <?php echo $producto['precio_actual']; ?> <span class="precio-anterior">S/
                             <?php echo $producto['precio_anterior']; ?></span></p>
-                    <button class="btn-comprar">Añadir al carrito</button>
+                    <form method="post" action="agregar_carrito.php">
+                        <input type="hidden" name="producto_id" value="<?php echo $producto['id']; ?>">
+                        <button type="submit" class="btn-comprar">Añadir al carrito</button>
+                    </form>
                 </div>
             <?php endforeach; ?>
         </div>
